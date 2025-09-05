@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary">#6366F1</color>
+    <color name="primary_dark">#4F46E5</color>
+    <color name="primary_light">#818CF8</color>
+    <color name="primary_container">#E0E7FF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#1E1B4B</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#EC4899</color>
+    <color name="secondary_dark">#DB2777</color>
+    <color name="secondary_light">#F472B6</color>
+    <color name="secondary_container">#FCE7F3</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="on_secondary_container">#831843</color>
+
+    <!-- Accent Colors -->
+    <color name="accent">#10B981</color>
+    <color name="accent_dark">#059669</color>
+    <color name="accent_light">#34D399</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="background_dark">#0F172A</color>
+    <color name="surface">#FAFAFA</color>
+    <color name="surface_dark">#1E293B</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="surface_variant_dark">#334155</color>
+
+    <!-- Text Colors -->
+    <color name="on_background">#0F172A</color>
+    <color name="on_background_dark">#F8FAFC</color>
+    <color name="on_surface">#1E293B</color>
+    <color name="on_surface_dark">#E2E8F0</color>
+    <color name="on_surface_variant">#64748B</color>
+    <color name="on_surface_variant_dark">#94A3B8</color>
+
+    <!-- Status Colors -->
+    <color name="error">#EF4444</color>
+    <color name="error_container">#FEF2F2</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#7F1D1D</color>
+
+    <color name="warning">#F59E0B</color>
+    <color name="warning_container">#FEF3C7</color>
+    <color name="on_warning">#FFFFFF</color>
+    <color name="on_warning_container">#78350F</color>
+
+    <color name="success">#10B981</color>
+    <color name="success_container">#D1FAE5</color>
+    <color name="on_success">#FFFFFF</color>
+    <color name="on_success_container">#064E3B</color>
+
+    <!-- Category Colors -->
+    <color name="entertainment">#8B5CF6</color>
+    <color name="social_media">#EC4899</color>
+    <color name="productivity">#3B82F6</color>
+    <color name="fitness">#10B981</color>
+    <color name="news">#F59E0B</color>
+    <color name="miscellaneous">#6B7280</color>
+
+    <!-- Neutral Colors -->
+    <color name="outline">#E2E8F0</color>
+    <color name="outline_variant">#F1F5F9</color>
+    <color name="scrim">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Material Design System Colors -->
+    <color name="material_dynamic_primary10">#21005D</color>
+    <color name="material_dynamic_primary20">#381E72</color>
+    <color name="material_dynamic_primary30">#4F378B</color>
+    <color name="material_dynamic_primary40">#6750A4</color>
+    <color name="material_dynamic_primary50">#7F67BE</color>
+    <color name="material_dynamic_primary60">#9A82DB</color>
+    <color name="material_dynamic_primary70">#B69DF8</color>
+    <color name="material_dynamic_primary80">#D0BCFF</color>
+    <color name="material_dynamic_primary90">#EADDFF</color>
+    <color name="material_dynamic_primary95">#F6EDFF</color>
+    <color name="material_dynamic_primary99">#FFFBFE</color>
+
+    <!-- Ripple Effects -->
+    <color name="ripple_material_light">#33999999</color>
+    <color name="ripple_material_dark">#33CCCCCC</color>
+</resources>

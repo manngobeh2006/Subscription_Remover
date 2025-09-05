@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Subscription Remover</string>
+    <string name="app_tagline">Take control of your subscriptions</string>
+
+    <!-- Authentication -->
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="create_account">Create Your Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="google_sign_in">Sign in with Google</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_subscriptions">Subscriptions</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="active_subscriptions">Active Subscriptions</string>
+    <string name="monthly_spending">Monthly Spending</string>
+    <string name="upcoming_bills">Upcoming Bills</string>
+    <string name="see_all">See All</string>
+    <string name="add_subscription">Add Subscription</string>
+
+    <!-- Subscription Categories -->
+    <string name="entertainment">Entertainment</string>
+    <string name="social_media">Social Media</string>
+    <string name="productivity">Productivity</string>
+    <string name="fitness">Fitness &amp; Health</string>
+    <string name="news">News &amp; Magazines</string>
+    <string name="miscellaneous">Miscellaneous</string>
+
+    <!-- Subscription Actions -->
+    <string name="cancel_subscription">Cancel Subscription</string>
+    <string name="keep_subscription">Keep Subscription</string>
+    <string name="schedule_cancellation">Schedule Cancellation</string>
+    <string name="edit_subscription">Edit Subscription</string>
+    <string name="view_details">View Details</string>
+    <string name="last_used">Last used: %1$s</string>
+    <string name="never_used">Never used</string>
+    <string name="billing_cycle">Billing Cycle</string>
+    <string name="next_payment">Next Payment</string>
+
+    <!-- Notifications -->
+    <string name="unused_subscription_title">Unused Subscription Alert</string>
+    <string name="unused_subscription_message">You haven\'t used %1$s for %2$d days. Consider canceling to save money.</string>
+    <string name="scheduled_cancellation_title">Scheduled Cancellation</string>
+    <string name="scheduled_cancellation_message">%1$s will be canceled tomorrow. Tap to modify.</string>
+
+    <!-- Settings -->
+    <string name="account">Account</string>
+    <string name="notifications">Notifications</string>
+    <string name="privacy">Privacy</string>
+    <string name="help_support">Help &amp; Support</string>
+    <string name="about">About</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="delete_account">Delete Account</string>
+
+    <!-- Trial and Billing -->
+    <string name="free_trial_active">Free Trial Active</string>
+    <string name="days_left">%1$d days left</string>
+    <string name="upgrade_to_premium">Upgrade to Premium</string>
+    <string name="premium_features">Premium Features</string>
+    <string name="unlimited_subscriptions">Unlimited subscription tracking</string>
+    <string name="smart_notifications">Smart usage notifications</string>
+    <string name="advanced_analytics">Advanced analytics</string>
+    <string name="priority_support">Priority customer support</string>
+    <string name="start_free_trial">Start 7-Day Free Trial</string>
+    <string name="then_per_month">Then $0.99/month</string>
+
+    <!-- Messages -->
+    <string name="loading">Loading...</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="try_again">Try Again</string>
+    <string name="success">Success!</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <!-- Subscription Details -->
+    <string name="subscription_name">Subscription Name</string>
+    <string name="monthly_cost">Monthly Cost</string>
+    <string name="billing_date">Billing Date</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="website">Website</string>
+    <string name="cancellation_link">Cancellation Link</string>
+
+    <!-- Analytics -->
+    <string name="spending_overview">Spending Overview</string>
+    <string name="category_breakdown">Category Breakdown</string>
+    <string name="usage_trends">Usage Trends</string>
+    <string name="savings_potential">Savings Potential</string>
+    <string name="this_month">This Month</string>
+    <string name="last_month">Last Month</string>
+    <string name="this_year">This Year</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_weak_password">Password must be at least 6 characters</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+    <string name="error_network">Network error. Check your connection.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+</resources>
