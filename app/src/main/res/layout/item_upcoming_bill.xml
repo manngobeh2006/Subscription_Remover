@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Urgency Indicator -->
+    <View
+        android:id="@+id/urgency_indicator"
+        android:layout_width="4dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/rounded_rectangle"
+        android:backgroundTint="@color/warning" />
+
+    <!-- Logo -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="12dp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircularImageView"
+        tools:src="@drawable/ic_subscription_placeholder" />
+
+    <!-- Subscription Info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_subscription_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.SubscriptionRemover.Body1"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginBottom="2dp"
+            tools:text="Spotify Premium" />
+
+        <TextView
+            android:id="@+id/tv_due_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.SubscriptionRemover.Caption"
+            android:textColor="@color/warning"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="Due tomorrow" />
+
+    </LinearLayout>
+
+    <!-- Category Indicator -->
+    <View
+        android:id="@+id/category_indicator"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_marginHorizontal="8dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="@color/music" />
+
+    <!-- Amount -->
+    <TextView
+        android:id="@+id/tv_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.SubscriptionRemover.Body1"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        tools:text="$9.99" />
+
+</LinearLayout>
